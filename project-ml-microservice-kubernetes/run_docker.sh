@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=j-s-457/project-ml-microservice-kubernetes .
+docker build -t dr146457/project-ml-microservice-kubernetes .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 j-s-457/project-ml-microservice-kubernetes
+docker run -p 8000:80 dr146457/project-ml-microservice-kubernetes
